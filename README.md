@@ -1,2 +1,2 @@
 # clangbook
-Exercises from c langguage K&amp;R book
+Exercises from c language K&amp;R book

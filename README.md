@@ -1,5 +1,6 @@
+```
 Exercises for Brian Kernighan's and Dennis Ritchie's Programming in C Language Book.
-t
+
 Notes
 
 In a fresh ubuntu install install c compiler with:
@@ -62,7 +63,7 @@ ex1-8.c		Exercise 1-8
 ex1-9.c		Exercise 1-9
 ex1-x.c		Exercise 1-10
 
-
+```
 
 
 

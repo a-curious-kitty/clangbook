@@ -1,5 +1,5 @@
 Exercises for Brian Kernighan's and Dennis Ritchie's Programming in C Language Book.
-
+t
 Notes
 
 In a fresh ubuntu install install c compiler with:

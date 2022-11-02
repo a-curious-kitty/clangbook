@@ -39,6 +39,7 @@ Must use int main(void) for the main function definition or you will get a warni
 
 getline() is now a function in <stdio.h> so it must be change to something like get_line().
 
+The | operator can pipe a text file to a program. It is useful to test the multiple lines or character counting programs.
 
 Chapter 1
 

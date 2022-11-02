@@ -4,12 +4,10 @@ int main(void)
 {
 	int c, scount;
 	while ((c = getchar()) != EOF){
-		if (c == ' ') {
+		if (c == ' ') 
 			++scount;
-		}
-		else {
+		else 
 			scount = 0;
-		}
 		
 		if (scount <= 1)
 			putchar(c);

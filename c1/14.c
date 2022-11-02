@@ -6,7 +6,7 @@
 
 /* print Fahrenheit-Celsius table */
 
-main()
+int main(void)
 {
 	int fahr;
 

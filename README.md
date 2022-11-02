@@ -12,7 +12,7 @@ or
 $ vim <file name.c>
 to create/edit source files(make sure they end in .c).
 
-$ cc <file name> 
+$ cc <file name.c> 
 to compile, and
 $ ./a.out
 to run programs.

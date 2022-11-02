@@ -65,10 +65,10 @@ e1-x.c	  	Ex 1-10
 e1-x2.c     Ex 1.12
 16.c        Count digits, white space, others(Arrays)
 e1-x4.c     Ex1.14
-17.c        Power (Function)
-
-
-
+17.c        1.7 Power (Function)
+18.c        1.8 Power (Arguments Call by value)
+19.c        1.9 Print longest line(character arrays)
+1x.c        1.10 Print longest input line(specialized version)
 
 ```
 

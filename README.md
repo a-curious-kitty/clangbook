@@ -1,47 +1,31 @@
 ```
 Exercises for Brian Kernighan's and Dennis Ritchie's Programming in C Language Book.
 
-Notes
-
-In a fresh ubuntu install install c compiler with:
+On a fresh ubuntu install:
 
 $ sudo apt update
 $ sudo apt install build-essential
+to install c
 
-
-In ubuntu pressing Ctrl + D signals the end of file(EOF)
-
-
-Type:
-
-$ nano <file name>.c
-
+$ nano <file name.c>
 or
-
-$ vim <file name>.c
-
+$ vim <file name.c>
 to create/edit source files(make sure they end in .c).
 
-
-Type:
-
 $ cc <file name> 
-
 to compile, and
-
 $ ./a.out
-
 to run programs.
 
+cat testtext.txt | <filename.c>
+to pipe the contents of text file into program.
+
+Ctrl + d signals the end of file(EOF)
 
 Must use int main(void) for the main function definition or you will get a warning.
 
+getline() is now a function in <stdio.h> so it must be change to something like get_line()
 
-getline() is now a function in <stdio.h> so it must be change to something like get_line().
-
-The | operator can pipe a text file to a program. It is useful to test the multiple lines or character counting programs.
-
-Chapter 1
 
 File name	Corresponding book part
 

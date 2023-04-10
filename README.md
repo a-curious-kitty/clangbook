@@ -37,10 +37,11 @@ File        Page      Exercise
 1-9.c       20        Copy input to output replacing blanks > 1 for one blank
 1-10.c      20        Copy input to output replacing tabs by \t, backspace by \b and backslash by \\
 1-12.c      21        Print one word per line
-1-14.c      24        Histogram of frequencies of different characters      
+1-14.c      24        Histogram of frequencies of different characters
+1-15.c      27        Temperature conversion rewritten to use a function
 
 
-2-1.c      
+2-1.c       36        Ranges of char, short, int and long signed and unsigned    
 ```
 
 

@@ -12,6 +12,7 @@ int main(void)
 	upper = 300;	/* upper limit */
 	step = 20;	/* step size */
 
+	//Header
 	printf("cel     fah\n");
 	printf("===========\n");
 

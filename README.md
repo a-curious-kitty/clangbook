@@ -1,60 +1,49 @@
 ```
-Exercises for Brian Kernighan's and Dennis Ritchie's Programming in C Language Book.
+Exercises for Brian Kernighan's and Dennis Ritchie's "Programming in C Language" in Ubuntu.
 
-On a fresh ubuntu install:
-
+Install c compiler:
 $ sudo apt update
 $ sudo apt install build-essential
-to install c
 
+
+To create or edit c files:
 $ nano <file name.c>
 or
 $ vim <file name.c>
-to create/edit source files(make sure they end in .c).
 
+
+Main function must be defined as int main(void).
+
+getline() is now a function in <stdio.h> change the name to something like get_line()
+
+
+To compile programs:
 $ cc <file name.c> 
-to compile, and
+To run the program:
 $ ./a.out
-to run programs.
-
-cat testtext.txt | <filename.c>
-to pipe the contents of text file into program.
-
-Ctrl + d signals the end of file(EOF)
-
-Must use int main(void) for the main function definition or you will get a warning.
-
-getline() is now a function in <stdio.h> so it must be change to something like get_line()
 
 
-File name	Corresponding book part
+To pipe test text file into program:
+cat test.txt | ./a.out
 
-11.c		1.1 Hello World
-e1-2.c		Ex 1-2
-12.c		1.2 Fahrenheit-Celsius table
-12f.c		1.2 Fahrenheit-Celsius table(float)
-e1-3.c		Ex 1-3
-e1-4.c		Ex 1-4
-13.c		1.3 Fahrenheit-Celsius table(for loop)
-e1-5		Exercise 1-5
-14.c		1.4 Fahreheit-Celsius table(Symbolic Constants)
-15.c		1.5 Copy input to output
-e1-6.c		Ex 1-6
-e1-7.c		Ex 1-7
-15c1.c		1.5.2 Character counting
-15c2.c		1.5.2 Character counting (2nd version)
-15l.c		1.5.3 Line counting
-e1-8.c		Ex 1-8
-e1-9.c		Ex 1-9
-e1-x.c		x 1-10
-e1-x2.c		Ex 1.12
-16.c		Count digits, white space, others(Arrays)
-e1-x4.c		Ex1.14
-17.c		1.7 Power (Function)
-18.c		1.8 Power (Arguments Call by value)
-19.c		1.9 Print longest line(character arrays)
-1x.c		1.10 Print longest input line(specialized version)
 
+File       Page     Exercise
+
+1-1.c	   8 	    Hello World!
+1-2.c      8 		Print special characters
+1-3.c	   13     	Add heading to temperature conversion table
+1-4.c	   13     	Switch conversion table to celsius to fahrenheit
+1-5.c	   14       Reverse order of temperature conversion table
+1-6.c	   17       Verify getchar() != EOF is 0 or 1 (Press Cntl + D)
+1-7.c	   17       Print value of EOF
+1-8.c	   20       Count blanks, tabs and newlines
+1-9.c      20       Copy input to output replacing more than one blanks for one
+1-10.c     20       Copy input to output replacing tabs by \t, backspace by \b and backslash by \\
+1-12.c	   21       Print one word per line
+1-14.c     24       Histogram of frequencies of different characters      
+
+
+2-1.c      
 ```
 
 

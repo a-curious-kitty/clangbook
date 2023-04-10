@@ -2,5 +2,5 @@
 
 int main(void)
 {
-	printf("\t\r\u\v\n\a\n");
+	printf("\t\r\v\n\a\n");
 }

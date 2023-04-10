@@ -41,7 +41,7 @@ $ cat test.txt | ./a.out
 
 -Define main function as int main(void) to avoid compiling warnings.
 
--getline() is now a function in <stdio.h> so change the name to something like get_line().
+-In chapter 1, getline() is now a function in <stdio.h> so change the name to something like get_line().
 
 &nbsp;  
 

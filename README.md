@@ -31,7 +31,7 @@ File       Page     Exercise
 1-3.c	   13       Add heading to temperature conversion table
 1-4.c	   13       Switch conversion table to celsius to fahrenheit
 1-5.c	   14       Reverse order of temperature conversion table
-1-6.c	   17       Verify getchar() != EOF is 0 or 1 (Press Cntl + D)
+1-6.c	   17       Verify getchar() != EOF is 0 or 1 (Cntl + D to signal EOF)
 1-7.c	   17       Print value of EOF
 1-8.c	   20       Count blanks, tabs and newlines
 1-9.c      20       Copy input to output replacing more than one blanks for one

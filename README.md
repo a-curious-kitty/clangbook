@@ -30,9 +30,9 @@ cat test.txt | ./a.out
 File       Page     Exercise
 
 1-1.c	   8 	    Hello World!
-1-2.c      8 		Print special characters
-1-3.c	   13     	Add heading to temperature conversion table
-1-4.c	   13     	Switch conversion table to celsius to fahrenheit
+1-2.c      8        Print special characters
+1-3.c	   13       Add heading to temperature conversion table
+1-4.c	   13       Switch conversion table to celsius to fahrenheit
 1-5.c	   14       Reverse order of temperature conversion table
 1-6.c	   17       Verify getchar() != EOF is 0 or 1 (Press Cntl + D)
 1-7.c	   17       Print value of EOF

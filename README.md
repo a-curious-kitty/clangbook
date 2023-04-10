@@ -21,7 +21,7 @@ To run the program:
 $ ./a.out
 
 To pipe test text file into program:
-cat test.txt | ./a.out
+$ cat test.txt | ./a.out
 
 
 File        Page      Exercise

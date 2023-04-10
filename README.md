@@ -59,6 +59,7 @@ File        Page      Exercise
 1-8.c       20        Count blanks, tabs and newlines
 1-9.c       20        Copy input to output replacing blanks > 1 to one blank
 1-10.c      20        Copy input to output replacing tabs to \t, backspace to \b and backslash to \\
+1-11.c      21        Testing word count program for errors
 1-12.c      21        Print one word per line
 1-13.c      24        (missing) Histogram of words lengths
 1-14.c      24        Histogram of frequencies of different characters

@@ -1,27 +1,24 @@
 ```
 Exercises for Brian Kernighan's and Dennis Ritchie's "Programming in C Language" in Ubuntu.
 
+
 Install c compiler:
 $ sudo apt update
 $ sudo apt install build-essential
-
 
 To create or edit c files:
 $ nano <file name.c>
 or
 $ vim <file name.c>
 
-
 Main function must be defined as int main(void).
 
 getline() is now a function in <stdio.h> change the name to something like get_line()
-
 
 To compile programs:
 $ cc <file name.c> 
 To run the program:
 $ ./a.out
-
 
 To pipe test text file into program:
 cat test.txt | ./a.out

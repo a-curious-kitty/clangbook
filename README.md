@@ -75,7 +75,8 @@ File        Page      Exercise
 1-24.c      34        (missing)
 
 
-2-1.c       36        Ranges of char, short, int and long signed and unsigned    
+2-1.c       36        Ranges of char, short, int and long signed and unsigned
+2-2.c       42        Equivalent loop to the for loop in page 41 without using && or ||
 ```
 
 

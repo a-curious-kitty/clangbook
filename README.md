@@ -47,7 +47,10 @@ $ cat test.txt | ./a.out
 
 ## Contents
 ```
+
 File        Page      Exercise
+
+Chapter 1
 
 1-1.c       8         Hello World!
 1-2.c       8         Print special characters
@@ -74,6 +77,7 @@ File        Page      Exercise
 1-23.c      34        (missing)
 1-24.c      34        (missing)
 
+Chapter 2
 
 2-1.c       36        Ranges of char, short, int and long signed and unsigned
 2-2.c       42        Equivalent loop to the for loop in page 41 without using && or ||
